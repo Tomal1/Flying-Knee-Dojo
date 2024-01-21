@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    padding: 10px;
+}
+
+nav a{
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+
+nav{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+}
+
+
+li{
+    
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    
+}
+
+section{
+    padding-top: 10vh;
+    height: 90vh;
+    width: 100vw;
+}
+
