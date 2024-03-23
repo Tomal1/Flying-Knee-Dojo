@@ -6,23 +6,33 @@
     <title>Flying Knee Dojo</title>
     <link rel="stylesheet" href="./assets/css/Root&Nav.css" />
     <link rel="stylesheet" href="./assets/css/Instructors.css" />
+    <link rel="stylesheet" href="./assets/css/Shop.css" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
   </head>
   <body>
     <nav>
       <h1>Flying Knee Dojo</h1>
       <ul>
         <li><a href="#Home">Home</a></li>
-        <li><a href="#Class-Schedule">Class Schedule</a></li>
         <li><a href="#Instructors">Instructors</a></li>
+        <li><a href="#Shop">Shop</a></li>
         <li><a href="#Contact">Contact</a></li>
-        <li><a href="#">Shop</a></li>
       </ul>
     </nav>
 
     <section id="Home">
-      <figure>
-        <img src="./assets/buakaw.png" />
+      <figure class="mainPic">
+        <img src="./assets/buakaw.png" class="mainHero"/>
       </figure>
+      <div class="mainText">
+        <h1>Exelence was forged within the eye of adversidy...Not everyone was built for Exelence</h1>
+        <p>A proven track record of exelence withing all aspects of combat, our 
+          achivements speak for itself, to join this orgainastaion you must have 
+          poven your self in any combat diciplins with a minimum of five bouts</p>
+      </div>
+      <div class="mainBTN">
+        <button class="aboutBTN">Find out More</button>
+      </div>
     </section>
 
     <section id="Instructors">
@@ -42,12 +52,40 @@
 
         <div class="infoBox">
           <span class="instructorName"></span>
-        
-        
+        </div>
+
+        <div id="carCon">
+          <div id="imageCon">
+            <img src="" id="image"/>
+          </div>
+          <div id="btnCon"></div>
         </div>
       
       </div>
+
     </section>
+
+
+    <section id="Shop">
+      <!-- this is the button to show/hide model -->
+      <button id="cart-btn" type="button" class="btn">
+        <span id="show-hide-cart">Show</span> Cart
+      </button>
+      <!-- this is the model -->
+      <div id="cart-container">
+        <button class="btn" id="clear-cart-btn">Clear Cart</button>
+        <div id="products-container"></div>
+          <p>Total number of items: <span id="total-items">0</span></p>
+          <p>Subtotal: <span id="subtotal">$0</span></p>
+          <p>Taxes: <span id="taxes">$0</span></p>
+          <p>Total: <span id="total">$0</span></p>
+        </div>
+      <!-- this is where the contents will go -->
+      <div id="dessert-card-container"></div>
+    </section>
+
+
+
     <script src="./assets/js/Instructors.js"></script> 
   </body>
 </html>

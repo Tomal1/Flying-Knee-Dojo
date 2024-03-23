@@ -1,33 +1,89 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
 *{
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: black;
     color: white;
+    font-family: 'Satoshi', sans-serif;
 }
-
-h1{
-    padding: 10px;
-}
-
-nav a{
-    color: inherit; 
-    text-decoration: inherit; 
-  }
 
 nav{
     position: fixed;
     width: 100vw;
     height: 10vh;
+    text-align: left;
+    background-color: rgb(117, 45, 47);
+    opacity: 0.7;
+    border-bottom: 8px double white;
+}
+
+nav h1{
+    text-align: center;
+    background: none;
+}
+
+nav ul{
+    margin-left: 100px;
+    width: 450px;
+    background: none;
 }
 
 
-li{
+nav a{
+    text-decoration: inherit;
+    background: none;
     
+  }
+
+nav li{
     list-style: none;
     display: inline;
-    margin: 10px;
-    
+    margin-left: 0px;
+    margin-right: 50px;
+    background: none;
+}
+
+#Home{
+    margin-left: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1.25fr 3fr;
+    grid-template-rows: 1.25fr 1fr;
+    grid-template-areas: 
+    "mainText mainPic"
+    "mainBTN mainPic";
+    gap: 20px;
+}
+
+.mainPic{
+    grid-area: mainPic;
+}
+.mainHero{
+    height: 750px;
+}
+
+.mainText{
+    grid-area: mainText;
+    margin-top: 100px;
+}
+
+.mainText h1, p{
+    margin: 20px;
+}
+
+.aboutBTN{
+    border: 8px double white;
+    background-color: rgb(117, 45, 47);
+    color: white;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.mainBTN{
+    grid-area: mainBTN;
 }
 
 section{

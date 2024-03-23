@@ -1,15 +1,18 @@
 [
     {    
         "instructorName" : "Sombat Banchamek",
-        "information": "A.K.A. Buakaw Banchamek) is a professional Muay Thai fighter and kickboxer from Thailand of ethnic Kuy descent, who formerly fought out of Por. Pramuk Gym, in Bangkok, Thailand, under the ring name Buakaw Por. Pramuk Known for his fierce fighting style, Buakaw is a former two-time Omnoi Stadium champion, Lumpinee Stadium Toyota Marathon champion, former #1-ranked fighter in Lumpinee Stadium, Thailand Featherweight champion, two-time K-1 World MAX champion and 2011 & 2012 Thai Fight tournament champion. Buakaw is regarded as one of the greatest Muay Thai fighters of all time."
+        "information": "A.K.A. Buakaw Banchamek) is a professional Muay Thai fighter and kickboxer from Thailand of ethnic Kuy descent, who formerly fought out of Por. Pramuk Gym, in Bangkok, Thailand, under the ring name Buakaw Por. Pramuk Known for his fierce fighting style, Buakaw is a former two-time Omnoi Stadium champion, Lumpinee Stadium Toyota Marathon champion, former #1-ranked fighter in Lumpinee Stadium, Thailand Featherweight champion, two-time K-1 World MAX champion and 2011 & 2012 Thai Fight tournament champion. Buakaw is regarded as one of the greatest Muay Thai fighters of all time.",
+        "MartialArt": "Muay Thai, sometimes referred to as Thai boxing, is a combat sport that uses stand-up striking, sweeps, and various clinching techniques. This discipline is known as the \"Art of eight limbs\", as it is characterised by the combined use of fists, elbows, knees and shins. Muay Thai became widespread internationally in the late 20th to 21st century, when Westernised practitioners from Thailand began competing in kickboxing and mixed-rules matches as well as matches under Muay Thai rules around the world. The professional league is governed by The Professional Boxing Association of Thailand, sanctioned by The Sports Authority of Thailand."
     },
     {    
-        "instructorName" : "alex",
-        "information": "wa wa wa"
+        "instructorName" : "Masato Uchishiba",
+        "information": "is a Japanese judoka who won the gold medal in the men's under 66 kg division at the 2004 Summer Olympics in Athens, Greece, and at the 2008 Summer Olympics in Beijing, China.",
+        "MartialArt": "is an unarmed modern Japanese martial art, combat sport, Olympic sport (since 1964), and the most prominent form of jacket wrestling competed internationally. Judo was created in 1882 by Kanō Jigorō as an eclectic martial art, distinguishing itself from its predecessors due to an emphasis on free sparring instead of pre-arranged forms alongside its removal of striking and weapon training elements. The objective of competitive judo is to throw an opponent, immobilize them with a pin, or force an opponent to submit with a joint lock or a choke. While strikes and use of weapons are included in some pre-arranged forms (kata), they are not frequently trained and are illegal in judo competition or free practice. Judo's international governing body is the International Judo Federation, and competitors compete in the international IJF professional circuit." 
     },
     {    
         "instructorName" : "jhon",
-        "information": "hah ahah haha"
+        "information": "hah ahah haha",
+        "MartialArt": "xxx"
     }
     
 ]

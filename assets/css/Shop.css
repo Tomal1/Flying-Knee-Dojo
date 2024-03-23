@@ -1,0 +1,43 @@
+
+#cart-btn {
+  position: fixed;
+  right: 0;
+  top:0;
+}
+
+.add-to-cart-btn {
+  margin: 30px auto 10px;
+}
+
+#cart-container {
+  display: none;
+  position: fixed;
+  top: 40px;
+  right: 0;
+  width: 300px;
+  height: auto;
+  border: 3px double white;
+  text-align: center;
+  font-size: 1.2rem;
+  
+}
+
+.dessert-card{
+  border: 3px double white;
+  height: 200px;
+  width: 300px;
+}
+
+#dessert-card-container{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+
+}
+
+
+
+
+
