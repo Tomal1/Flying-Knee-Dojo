@@ -1,0 +1,19 @@
+#instructors{
+    display: flex;
+    justify-content: center;
+}
+
+.instructorsCon{
+    border: 1px solid white;
+    width: 80vw;
+    height:100vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.instrucDisplay ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 100px 0px 0px;
+}
