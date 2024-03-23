@@ -1,0 +1,48 @@
+
+
+.aboutCon{
+    
+    margin: 5vh 0 0 10vw;
+    display: grid;
+    grid-template-columns: repeat(3, 26.66667vw);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "firstImg secondTxt thirdImg"
+    "firstTxt secondImg thirdTxt";
+    align-items: start;
+    align-items: center;
+    
+}
+
+.aboutIcon{
+    height: 300px;
+    width: auto;
+}
+
+.firstImg{
+    grid-area: firstImg;
+}
+
+.firstTxt{
+    grid-area: firstTxt;
+
+}
+
+.secondImg{
+    grid-area: secondImg;
+}
+
+.secondTxt{
+    grid-area: secondTxt;
+
+}
+
+.thirdImg{
+   
+    grid-area: thirdImg;
+}
+
+.thirdTxt{
+
+    grid-area: thirdTxt;
+}

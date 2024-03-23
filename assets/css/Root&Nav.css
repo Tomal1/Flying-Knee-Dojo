@@ -24,7 +24,7 @@ nav h1{
 }
 
 nav ul{
-    margin-left: 100px;
+    margin-left: 10vw;
     width: 450px;
     background: none;
 }
@@ -44,9 +44,10 @@ nav li{
     background: none;
 }
 
-#Home{
-    margin-left: 100px;
-    text-align: center;
+
+.homeCon{
+    width: 80vw;
+    margin-left: 10vw;
     display: grid;
     grid-template-columns: 1.25fr 3fr;
     grid-template-rows: 1.25fr 1fr;
@@ -58,9 +59,11 @@ nav li{
 
 .mainPic{
     grid-area: mainPic;
+    margin-left: 20vw;
 }
+
 .mainHero{
-    height: 750px;
+    height: 650px;
 }
 
 .mainText{
